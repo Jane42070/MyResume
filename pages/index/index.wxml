@@ -1,0 +1,96 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="header">
+        <image class="bgimg" mode="aspectFill" src="img/bg_3.png"></image>
+        <image class="figure" mode="aspectFit" src="img/Jane.jpg">
+            <view class="name">
+                <text class="en">Jane</text>
+                <text class="cn">蹇棋林</text>
+            </view>
+        </image>
+        <view bindtap="tel">
+            <image class="phone" mode="aspectFit" src="img/phone.png"></image>
+        </view>
+    </view>
+    <view class="content">
+        <swiper>
+            <swiper-item>
+                <view class="sheet">
+                    <view class="contentHeader">
+                        <image mode="aspectFit" src="img/basic.png"></image>
+                    </view>
+                    <view class="textSelection">
+                        <text class="textH1">蹇棋林</text>
+                        <text>男 | 20岁（2000年4月20日）</text>
+                        <text>Vimer</text>
+                        <text>极客</text>
+                        <text>开源爱好者</text>
+                        <text>-> 重庆高校《我的青春》征文大赛优秀组织奖</text>
+                        <text>-> 移通学院年度庆典视频制作人员</text>
+                        <text>-> 移通学院算法比赛优秀奖</text>
+                        <text>-> 天悦好书网站 前后端编写</text>
+                        <text>-> DWM 源码修改，补丁制作</text>
+                        <text>-> Vim FileCompileRun 插件编写</text>
+                        <text>联系方式：153-1032-7717</text>
+                        <text>Email：1377219787@qq.com</text>
+                        <text>GitHub：https://github.com/Jane42070</text>
+                    </view>
+                </view>
+            </swiper-item>
+            <swiper-item>
+                <view class="sheet">
+                    <view class="contentHeader">
+                        <image mode="aspectFit" src="img/education.png"></image>
+                    </view>
+                    <view class="contentImage">
+                        <image class="schoolImage" src="img/cqyt.jpg"></image>
+                    </view>
+                    <view class="textSelection">
+                    <text class="textH1">重庆邮电大学移通学院本科</text>
+                        <text class="textH1">2018年 10 月 ~ 2019年 10 月</text>
+                        <text>-> 进入校学生会学习部</text>
+                        <text>-> 在部长带领下学习PR, AE 视频制作</text>
+                        <text>-> 学习 OpenCore</text>
+                        <text>-> 学习 Linux</text>
+                        <text></text>
+                        <text class="textH1">2019年 11月 ~ 2020年 5 月</text>
+                        <text>-> 学习 Python全栈，爬虫，数据分析，机器学习</text>
+                        <text>-> 学习 Markdown</text>
+                        <text>-> 学习 MongoDB, Redis</text>
+                        <text>-> 学习 Photoshop，Sketch UI 设计</text>
+                        <text>-> 自学单片机，焊接</text>
+                        <text class="textH1">2020年 7 月 ~ 2020年 9 月</text>
+                        <text>-> 学习Golang，C语言，C++</text>
+                        <text>-> 自学摄影，后期</text>
+                        <text>-> 学习 Shell</text>
+                        <text class="textH1">2020年 9 月 ~ 至今</text>
+                        <text>-> 学习 微信小程序开发</text>
+                        <text>-> 学习 UI 设计</text>
+                    </view>
+                </view>
+            </swiper-item>
+            <swiper-item>
+                <view class="sheet">
+                    <view class="contentHeader">
+                        <image mode="aspectFit" src="img/experience.png"></image>
+                    </view>
+                    <view class="contentImage">
+                        <image mode="aspectFill" class="schoolImage" src="img/code.jpg"></image>
+                    </view>
+                    <view class="textSelection">
+                        <text class="textH1">2018年 10 月 ~ 2019 年 10 月</text>
+                        <text>-> 参与年度庆典，“移通杯”辩论赛，老干部欢送酒会视频制作</text>
+                        <text class="textH1">2020年 9 月 ~ 至今</text>
+                        <text class="textH1">淘宝代写程序：</text>
+                        <text>-> 爬虫，web 项目，数据分析，一般作业，毕设</text>
+                        <text class="textH1">GitHub 开源项目</text>
+                        <text>-> TianYue，Django 框架为后端的小说网站</text>
+                        <text>-> 天天生鲜，Django 框架为后端的小说网站</text>
+                        <text>-> DWM 更改，Linux 下的窗口管理器</text>
+                        <text>-> SLOCK 更改，Linux 下的锁屏软件</text>
+                    </view>
+                </view>
+            </swiper-item>
+        </swiper>
+    </view>
+</view>
